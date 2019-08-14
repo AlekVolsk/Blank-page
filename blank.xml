@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<extension type="component" version="3.8" method="upgrade">
+	<name>COM_BLANK</name>
+	<author>AlekVolsk</author>
+	<authorEmail>alekvolsk@yandex.ru</authorEmail>
+	<copyright>Aleksey A. Morozov</copyright>
+	<license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
+	<version>1.0.0</version>
+	<description>COM_BLANK_DESC</description>
+	<creationDate>August 2019</creationDate>
+	<files folder="site">
+		<filename>blank.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+	</files>
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
+	</languages>
+	<administration>
+		<menu>COM_BLANK</menu>
+		<files folder="admin">
+			<filename>blank.php</filename>
+			<filename>controller.php</filename>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_blank.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
