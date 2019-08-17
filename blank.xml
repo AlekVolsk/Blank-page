@@ -5,12 +5,13 @@
 	<authorEmail>alekvolsk@yandex.ru</authorEmail>
 	<copyright>Aleksey A. Morozov</copyright>
 	<license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>COM_BLANK_DESC</description>
 	<creationDate>August 2019</creationDate>
 	<files folder="site">
 		<filename>blank.php</filename>
 		<filename>controller.php</filename>
+		<filename>router.php</filename>
 		<folder>views</folder>
 	</files>
 	<languages folder="site">
