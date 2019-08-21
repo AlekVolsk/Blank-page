@@ -13,16 +13,16 @@
 
 In order to attach empty output to the page, which does not create a load on either requests or rendering. Most often, this is required on the main page of the site or on special landing pages.
 
-By default in Joomla, the favorited materials are attached to the main page. Few people know, but this page is one of the most loaded pages in the basic components of Joomla.
+By default in Joomla, the favorited articles are attached to the main page. Few people know, but this page is one of the most heavy pages in the core components of Joomla.
 
-**Why can not do with the template?**
+**Why you can not do with the template?**
 
 - Not all templates support disabling component output on a specific page.
 - Not all templates allow you to safely implement the necessary edits to disable component output without losing edits when a component can be updated.
 - Not all webmasters are able to make the necessary changes to the template.
 
 
-**What if the template creates indented markup around empty output?**
+**What if the template creates markup with padding around empty output?**
 
 Override the only view template for this component and manually prescribe styles to hide the wrapper block. If you do not know how to do this and what exactly to prescribe — contact a qualified specialist.
 
@@ -52,6 +52,6 @@ Yep.
 
 Переопределить шаблон единственного вида этого компонента и вручную прописать ему стили по скрытию блока-обёртки. Если вы не знаете, как это сделать и что именно прописать — обратитесь к квалифицированному специалисту.
 
-**Автор психпнул?**
+**Автор психанул?**
 
 Да.
