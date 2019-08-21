@@ -34,4 +34,7 @@
 			<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.sys.ini</language>
 		</languages>
 	</administration>
+    <updateservers>
+        <server type="extension" priority="1" name="COM_BLANK"><![CDATA[https://joomla-update.org/extensions/com_blank/blank_update.xml]]></server>
+    </updateservers>
 </extension>
