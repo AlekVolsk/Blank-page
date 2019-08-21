@@ -1,6 +1,13 @@
 # Blank-page
 
-### EN:<br>All that this component does is display a blank page on the site that is attached to a menu item. For Joomla 3.8 or later.
+![Version](https://img.shields.io/badge/version-1.0.2-28A5F5.svg?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/last_update-2019.08.21-28A5F5.svg?style=for-the-badge)
+![Joomla](https://img.shields.io/badge/joomla-3.8+-1A3867.svg?style=for-the-badge)
+![Php](https://img.shields.io/badge/php-5.6+-8892BF.svg?style=for-the-badge)
+
+### EN:
+
+### All that this component does is display a blank page on the site that is attached to a menu item.
 
 **What is this for?**
 
@@ -25,7 +32,9 @@ Yep.
 
 ---
 
-### RU:<br>Всё, что делает этот компонент — выводит на сайте пустую страницу, привязанную к пункту меню.
+### RU:
+
+### Всё, что делает этот компонент — выводит на сайте пустую страницу, привязанную к пункту меню.
 
 **Для чего это надо?**
 
