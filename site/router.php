@@ -7,24 +7,48 @@
  */
 
 use Joomla\CMS\Factory;
+use Joomla\CMS\Component\Router\RouterView;
+use Joomla\CMS\Component\Router\RouterViewConfiguration;
+use Joomla\CMS\Component\Router\Rules\MenuRules;
+use Joomla\CMS\Component\Router\Rules\NomenuRules;
+use Joomla\CMS\Component\Router\Rules\StandardRules;
+
+class BlankRouter extends RouterView
+{
+	public function __construct($app = null, $menu = null)
+	{
+		$this->registerView(new RouterViewConfiguration('blank'));
+
+		parent::__construct($app, $menu);
+
+		$this->attachRule(new MenuRules($this));
+		$this->attachRule(new StandardRules($this));
+		$this->attachRule(new NomenuRules($this));
+	}
+
+	public function getPageSegment($id, $query)
+	{
+		return (!empty($id)) ? array($id => $id) : false;
+	}
+
+	public function getPageId($segment, $query)
+	{
+		return (!empty($segment)) ? $segment : false;
+	}
+}
 
 function blankBuildRoute(&$query)
 {
-	if (isset($query['view'])) {
-		unset($query['view']);
-	}
-	return [];
+	$app    = Factory::getApplication();
+	$router = new BlankRouter($app, $app->getMenu());
+
+	return $router->build($query);
 }
 
 function blankParseRoute($segments)
 {
-	$vars = [];
-	$count = count($segments);
-	$menu = Factory::getApplication()->getMenu('site')->getActive();
-	$view = isset($menu->query['view']) ? $menu->query['view'] : '';
-	if ($view === 'blank' && !$count) {
-		$vars['view'] = 'blank';
-		return $vars;
-	}
-	return;
+	$app    = Factory::getApplication();
+	$router = new BlankRouter($app, $app->getMenu());
+
+	return $router->parse($segments);
 }
