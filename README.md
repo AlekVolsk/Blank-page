@@ -5,6 +5,8 @@
 ![Joomla](https://img.shields.io/badge/joomla-3.8+-1A3867.svg?style=for-the-badge)
 ![Php](https://img.shields.io/badge/php-5.6+-8892BF.svg?style=for-the-badge)
 
+[![JED](https://img.shields.io/badge/-This_is_an_extension_in_JED-1b63a2.svg?style=for-the-badge)](https://extensions.joomla.org/extensions/extension/style-a-design/page-background/blank-page/)
+
 ### EN:
 
 ### All that this component does is display a blank page on the site that is attached to a menu item.
