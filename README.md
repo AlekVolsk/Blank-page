@@ -1,7 +1,7 @@
 # Blank-page
 
-![Version](https://img.shields.io/badge/version-1.0.2-28A5F5.svg?style=for-the-badge)
-![Last Update](https://img.shields.io/badge/last_update-2019.08.21-28A5F5.svg?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.3-28A5F5.svg?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/last_update-2020.06.19-28A5F5.svg?style=for-the-badge)
 ![Joomla](https://img.shields.io/badge/joomla-3.8+-1A3867.svg?style=for-the-badge)
 ![Php](https://img.shields.io/badge/php-5.6+-8892BF.svg?style=for-the-badge)
 
@@ -20,7 +20,7 @@ By default in Joomla, the favorited articles are attached to the main page. Few 
 **Why you can not do with the template?**
 
 - Not all templates support disabling component output on a specific page.
-- Not all templates allow you to safely implement the necessary edits to disable component output without losing edits when a component can be updated.
+- Not all templates allow you to safely implement the necessary edits to disable component output without losing edits when a component or template can be updated.
 - Not all webmasters are able to make the necessary changes to the template.
 
 
@@ -47,7 +47,7 @@ Yep.
 **Почему нельзя обойтись средствами шаблона?**
 
 - Не все шаблоны поддерживают отключение вывода компонента на определённой странице.
-- Не все шаблоны позволяют безопасно внедрить необходимые правки по отключению вывода компонента без потери правок при возможном обновлении компонента.
+- Не все шаблоны позволяют безопасно внедрить необходимые правки по отключению вывода компонента без потери правок при возможном обновлении компонента или шаблона.
 - Не все веб-мастера в состоянии внести в шаблон необходимые правки.
 
 **Что делать, если шаблон создаёт разметку с отступами вокруг пустого вывода?**

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config>
-	<fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
-		<field name="sef_advanced" type="hidden" default="1"/>
-	</fieldset>
+    <fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
+        <field name="sef_advanced" type="hidden" default="1"/>
+    </fieldset>
 </config>
