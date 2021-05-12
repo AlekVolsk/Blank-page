@@ -1,40 +1,37 @@
 <?xml version="1.0"?>
 <extension type="component" version="3.9" method="upgrade">
-    <name>COM_BLANK</name>
-    <author>AlekVolsk</author>
-    <authorEmail>alekvolsk@yandex.ru</authorEmail>
-    <copyright>Aleksey A. Morozov</copyright>
-    <license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
-    <version>1.0.3</version>
-    <description>COM_BLANK_DESC</description>
-    <creationDate>June 2020</creationDate>
-    <scriptfile>script.php</scriptfile>
-    <files folder="site">
-        <filename>blank.php</filename>
-        <filename>controller.php</filename>
-        <filename>router.php</filename>
-        <folder>views</folder>
-    </files>
-    <languages folder="site">
-        <language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
-        <language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
-    </languages>
-    <administration>
-        <menu>COM_BLANK</menu>
-        <files folder="admin">
-            <filename>blank.php</filename>
-            <filename>controller.php</filename>
-            <filename>config.xml</filename>
-            <folder>views</folder>
-        </files>
-        <languages folder="admin">
-            <language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
-            <language tag="en-GB">language/en-GB/en-GB.com_blank.sys.ini</language>
-            <language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
-            <language tag="ru-RU">language/ru-RU/ru-RU.com_blank.sys.ini</language>
-        </languages>
-    </administration>
-    <updateservers>
-        <server type="extension" priority="1" name="COM_BLANK"><![CDATA[https://joomla-update.org/extensions/com_blank/blank_update.xml]]></server>
-    </updateservers>
+	<name>COM_BLANK</name>
+	<author>AlekVolsk</author>
+	<authorEmail>alekvolsk@yandex.ru</authorEmail>
+	<copyright>Aleksey A. Morozov</copyright>
+	<license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
+	<version>1.0.4</version>
+	<description>COM_BLANK_DESC</description>
+	<creationDate>May 2021</creationDate>
+	<files folder="site">
+		<filename>blank.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<folder>views</folder>
+	</files>
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
+	</languages>
+	<administration>
+		<menu>COM_BLANK</menu>
+		<files folder="admin">
+			<filename>blank.php</filename>
+			<filename>controller.php</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_blank.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_blank.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_blank.sys.ini</language>
+		</languages>
+	</administration>
 </extension>

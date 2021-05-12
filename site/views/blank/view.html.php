@@ -8,27 +8,17 @@
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\MVC\View\HtmlView;
+use Joomla\CMS\Component\ComponentHelper;
 
 class BlankViewBlank extends HtmlView
 {
-    public function display($tpl = null)
-    {
-        $document = Factory::getDocument();
-        $params = Factory::getApplication()->getMenu('site')->getActive()->params;
-        
-        $pageDesc = $params->get('menu-meta_description', '');
-        if ($pageDesc) {
-            $document->setDescription($pageDesc);
+	public function display($tpl = null)
+	{
+        $params = ComponentHelper::getParams('com_blank');
+		$titleSource = $params->get('titlesource', 0);
+        if ($titleSource) {
+            Factory::getDocument()->setTitle(Factory::getConfig()->get('sitename'));
         }
-        
-        $pageKeywords = $params->get('menu-meta_keywords', '');
-        if ($pageDesc) {
-            $document->setMetadata('keywords', $pageKeywords);
-        }
-        
-        $pageRobots = $params->get('robots', '');
-        if ($pageDesc) {
-            $document->setMetadata('robots', $pageRobots);
-        }
-    }
+		parent::display($tpl);
+	}
 }

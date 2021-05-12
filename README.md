@@ -1,7 +1,7 @@
 # Blank-page
 
-![Version](https://img.shields.io/badge/version-1.0.3-28A5F5.svg?style=for-the-badge)
-![Last Update](https://img.shields.io/badge/last_update-2020.06.19-28A5F5.svg?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.4-28A5F5.svg?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/last_update-2021.05.12-28A5F5.svg?style=for-the-badge)
 ![Joomla](https://img.shields.io/badge/joomla-3.8+-1A3867.svg?style=for-the-badge)
 ![Php](https://img.shields.io/badge/php-5.6+-8892BF.svg?style=for-the-badge)
 
