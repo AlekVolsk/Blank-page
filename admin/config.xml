@@ -1,13 +1,17 @@
 <?xml version="1.0"?>
 <config>
-	<fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
-		<field name="sef_advanced" type="hidden" default="1"/>
-		<field name="titlesource" type="list" label="COM_BLANK_FIELD_TITLESOURCE_LABEL" class="btn-group" default="0">
-			<option value="0">COM_BLANK_FIELD_TITLESOURCE_0</option>
-			<option value="1">COM_BLANK_FIELD_TITLESOURCE_1</option>
-		</field>
-	</fieldset>
-	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
-		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_blank" section="component"/>
-	</fieldset>
+    <fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
+        <field name="sef_advanced" type="hidden" default="1"/>
+        <field name="titlesource" type="list" label="COM_BLANK_FIELD_TITLESOURCE_LABEL" class="btn-group" default="0">
+            <option value="0">COM_BLANK_FIELD_TITLESOURCE_0</option>
+            <option value="1">COM_BLANK_FIELD_TITLESOURCE_1</option>
+        </field>
+        <field name="descsource" type="list" label="COM_BLANK_FIELD_DESCSOURCE_LABEL" class="btn-group" default="0">
+            <option value="0">COM_BLANK_FIELD_DESCSOURCE_0</option>
+            <option value="1">COM_BLANK_FIELD_DESCSOURCE_1</option>
+        </field>
+    </fieldset>
+    <fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+        <field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_blank" section="component"/>
+    </fieldset>
 </config>

@@ -10,9 +10,9 @@ use Joomla\CMS\MVC\Controller\BaseController;
 
 class BlankController extends BaseController
 {
-	function display($cachable = false, $urlparams = [])
-	{
-		$this->default_view = 'blank';
-		parent::display($cachable, $urlparams);
-	}
+    function display($cachable = false, $urlparams = [])
+    {
+        $this->default_view = 'blank';
+        parent::display($cachable, $urlparams);
+    }
 }

@@ -14,14 +14,14 @@ use Joomla\CMS\Language\Text;
 
 class BlankViewBlank extends HtmlView
 {
-	public function display($tpl = null)
-	{
-		ToolBarHelper::title(Text::_('COM_BLANK'));
-		if (ContentHelper::getActions('com_blank')->get('core.admin')) {
-			ToolbarHelper::preferences('com_blank');
-		} else {
+    public function display($tpl = null)
+    {
+        ToolBarHelper::title(Text::_('COM_BLANK'));
+        if (ContentHelper::getActions('com_blank')->get('core.admin')) {
+            ToolbarHelper::preferences('com_blank');
+        } else {
             Factory::getDocument()->addStyleDeclaration('#isisJsData{height:0!important;overflow:hidden!important;}');
         }
-		parent::display($tpl);
-	}
+        parent::display($tpl);
+    }
 }
