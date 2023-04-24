@@ -9,6 +9,8 @@
 
 ### EN:
 
+IMPORTANT! Release 1.0.5 is final, further support of this extension is not planned.
+
 ### All that this component does is display a blank page on the site that is attached to a menu item.
 
 **What is this for?**
@@ -35,6 +37,8 @@ Yep.
 ---
 
 ### RU:
+
+ВАЖНО! Релиз 1.0.5 является финальным, дальнейшее сопровождение данного расширения не планируется.
 
 ### Всё, что делает этот компонент — выводит на сайте пустую страницу, привязанную к пункту меню.
 
